@@ -47,6 +47,16 @@ these are the main problems and solution that we found out and summarize
 
 - Less resource utilization.
 
+# Reference
+
+- https://medium.com/wix-engineering/event-driven-architecture-5-pitfalls-to-avoid-b3ebf885bdb1
+- https://serverlessland.com/event-driven-architecture/visuals/common-issued-with-eda
+- https://danoncoding.com/event-driven-architecture-part-1-pros-and-cons-with-examples-a2e5161fbcbd
+- https://www.neebal.com/blog/advantages-and-disadvantages-of-event-driven-architecture
+- https://serverlessland.com/event-driven-architecture/visuals/common-issued-with-eda
+- https://danoncoding.com/event-driven-architecture-part-1-pros-and-cons-with-examples-a2e5161fbcbd
+- https://www.neebal.com/blog/advantages-and-disadvantages-of-event-driven-architecture
+
 # Problem 2: Queues 
 
 1. Implement a combination of ordered queues, distributed processing optimizations, and service-level monitoring to mitigate the challenges of managing system state in event-driven architecture, accounting for potential delays and out-of-order messages.
@@ -63,6 +73,9 @@ these are the main problems and solution that we found out and summarize
 
 - Address the specific challenges related to ordered queues, delayed queues, and managing system state, with a focus on ensuring proper sequencing, handling dependencies, and simplifying the architecture where possible. (s04)
 
+# Reference
+- https://www.equalexperts.com/blog/tech-focus/event-driven-architecture-the-good-the-bad-and-the-ugly/
+- https://medium.com/@prabhu.seshadri/handling-out-of-order-events-in-a-event-driven-systems-93349bd20c26
 
 # Problem 3: Difficulty in discovery, tracking, and debugging
 
@@ -83,6 +96,11 @@ these are the main problems and solution that we found out and summarize
 
 - help readers understand the potential advantages and drawbacks of adopting EDA in their microservices-based applications.
 
+# Reference
+
+- https://serverlessland.com/event-driven-architecture/visuals/common-issued-with-eda
+- https://danoncoding.com/event-driven-architecture-part-1-pros-and-cons-with-examples-a2e5161fbcbd
+- https://www.techtarget.com/searchapparchitecture/tip/Event-driven-architecture-pros-and-cons-Is-EDA-worth-it
 
 # Problem 4 constant tension from many different angles, and it’s often hard to discern which dimensions of the design should get more weight and which should get less , Basically don't know what to pioritize.
 
@@ -100,6 +118,9 @@ these are the main problems and solution that we found out and summarize
 
 - Don't want to make mistake that will make the company loose money.
 
+# Reference
+
+- https://www.quora.com/What-are-some-real-life-challenges-of-software-architects
 
 # Problem 5 software isn’t scalable
 
@@ -116,3 +137,8 @@ these are the main problems and solution that we found out and summarize
 - User experience.
 
 - time allocation.
+
+# Reference
+
+- https://www.conceptatech.com/blog/importance-of-scalability-in-software-design
+- https://www.mezmo.com/blog/scalability-worst-practices
